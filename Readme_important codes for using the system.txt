@@ -14,6 +14,8 @@ LED2_Toggle:		0x43	==	C
 LED2_OFF:		0x51	== 	Q
 LED2_ON:		0x52	==	R
 LED2_Toggle:		0x53	==	S
+
+Terminate request packet:	0x0D	==	CR
 -------------------------------------------------------------------------------------- Outputs of the system
 Request Done Response:	0x12	==	DC2
 Invalid Operation Response:	0x10	==	DLE
