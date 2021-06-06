@@ -41,7 +41,7 @@
     #define BT_END_PACKET_CODE 0x0D
 
         // UART Driver Configurations //
-        #define Baud_Rate_Hundred 384
+        #define Baud_Rate_Hundred 96
         #define UART_Presc	16
         #define UART_Clk_Sor 160000
 

@@ -29,3 +29,12 @@ Inverse operation is done by the system.
 Kindly also note that system support that the device and operation each be sent in in its own byte by setting the macro (COMMAND_BYTE_LENGTH) in "Smart_Home_Sys_Config.h" to 2 instead of 1 and in such case the above decoding system will be neglected.
 Though this is a pre-build configuration and hence can only be set in the development phase of the system.
 
+Latest Updates: 
+kindly be informed that a small tweak has been made to system configuration to change the baud rate of the UART for the BT module.
+As it has been found that this is HC-06 not HC-05 hence the data sheet acquired was not accurate and the device is not running baudrate 38400 but the normal 9600.
+
+Kindly also note that the android mobile application I've been working on to control the system has been finished and tested and finally reached a working version.
+Application was crashing as it was haulting on a wait for response from the BT module (as intended HC-05 is a send/receive module while HC-06 is receive only hence tweaked the application and removed the haulting function.)
+
+App inventor online application used to develop this android mobile application below;
+http://ai2.appinventor.mit.edu/#4525380450254848

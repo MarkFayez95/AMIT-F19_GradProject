@@ -1387,7 +1387,7 @@ void UART_Init(void)
 	
 	// Set Baud Rate
 	UBRRL = ( UART_Clk_Sor / (UART_Presc * Baud_Rate_Hundred) ) - 1;
- 86a:	89 e1       	ldi	r24, 0x19	; 25
+ 86a:	87 e6       	ldi	r24, 0x67	; 103
  86c:	89 b9       	out	0x09, r24	; 9
  86e:	08 95       	ret
 
